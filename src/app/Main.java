@@ -2,7 +2,7 @@ package app;
 
 import gui.GUIFactory;
 import gui.WindowsFactory;
-import gui.macOSFactory;
+import gui.MacOSFactory;
 import logistics.Logistics;
 import logistics.RoadLogistics;
 import logistics.SeaLogistics;
@@ -47,7 +47,7 @@ public class Main {
     private static GUIFactory createGUIFactory(String platform) {
         return switch (platform) {
             case "WINDOWS" -> new WindowsFactory();
-            case "MACOS" -> new macOSFactory();
+            case "MACOS" -> new MacOSFactory();
             default -> null;
         };
     }

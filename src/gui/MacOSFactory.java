@@ -1,6 +1,6 @@
 package gui;
 
-public class macOSFactory implements GUIFactory{
+public class MacOSFactory implements GUIFactory{
 
     @Override
     public Button createButton() {
