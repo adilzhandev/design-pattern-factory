@@ -88,7 +88,7 @@ Enter UI platform (WINDOWS/MACOS): WINDOWS
 ```
 Producing Windows button
 Producing Windows checkbox
-Truck delivers laboratory equipment to UMC ASTANA
+Truck delivers building materials to BI Group Astana
 ```
 
 ## Author
