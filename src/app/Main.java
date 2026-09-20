@@ -33,7 +33,7 @@ public class Main {
         }
 
         DeliveryApplication application = new DeliveryApplication(guiFactory, logistics);
-        application.run("laboratory equipment", "UMC Astana");
+        application.run("building materials", "BI Group Astana");
     }
 
     private static Logistics createLogistics(String mode) {
